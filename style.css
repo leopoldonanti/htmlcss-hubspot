@@ -1,0 +1,199 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.bar{
+  width: 100%;
+  height: 80px;
+}
+
+#fixed-bar{
+  background-color: darksalmon;
+  position: fixed;
+  z-index: 999;
+  min-width: 1200px;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  background-color: forestgreen;
+  padding-top: 30px;
+  min-width: 1200px;
+}
+
+.box{
+  width: 50%;
+  background-color: khaki;
+}
+
+#logotipo{
+  background-color: deeppink;
+  padding-top: 80px;  
+  box-sizing: content-box;
+}
+
+#jumbotrone{
+  width: 100%;
+  height: 700px;
+  background-image: url(img/jumbotron.png);
+  background-size: cover;
+  position: relative;
+}
+
+.jumbo-frame{
+  background-color: maroon;
+  width: 40%;
+  height: 500px;
+}
+
+#jumbo-bar{
+  background-color: palegreen;
+  position: absolute;
+  bottom: 0px;
+}
+
+#powerful{
+  width: 100%;
+  height: 1200px;
+  background-color: peru;
+}
+
+.incipit{
+  height: 250px;
+}
+
+#incipit-main{
+  background-color: plum;
+}
+
+#incipit-row{
+  background-color: yellow;
+}
+
+#col-frame{
+  background-color: chartreuse;
+  height: 600px;
+}
+
+.colonna{
+  width: 32%;
+  background-color: red;
+  height: 600px;
+}
+
+#col-centrale{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+#learn{
+  background-color: deeppink;
+  height: 600px;
+}
+
+#pay-off{
+  background-color: darkorchid;
+  height: 150px;
+  margin-bottom: 50px;
+}
+
+.riga{
+  background-color: dodgerblue;
+  height: 150px;
+}
+
+#prima-riga{
+  border-bottom: solid 3px black;
+}
+
+.lil-box{
+  width: calc(100%/4);
+  background-color: gold;
+  height: 149px;
+}
+
+.central-box{
+  border-left: solid 1px black;
+  border-right: solid 1px black;
+}
+
+#clients{
+  background-color: greenyellow;
+  height: 600px;
+}
+
+.text-clients{
+  background-color: indianred;
+  height: 100px;
+  width: 250px;
+  margin-bottom: 100px;
+  padding-left: 80px;
+  padding-top: 60px;
+  text-align: center;
+}
+
+#call-clients{
+  height: 300px;
+}
+
+.cento{
+  font-weight: 600;
+}
+
+.container-loghi{
+  background-color: lemonchiffon;
+  height: 100px;
+  width: 600px;
+  margin-top: 60px;
+}
+
+.tab-loghi{
+  list-style: none;
+}
+
+.logo-client{
+  display: inline;
+  vertical-align: middle;
+  margin-right: 20px;
+}
+
+.brand{
+  width: 120px;
+  text-align: center;
+}
+
+#container-clients{
+  position: relative;
+}
+
+.box-cina{
+  background-image: url(img/woman.webp);
+  background-size: cover;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 220px;
+  height: 280px;
+}
+
+.cina{
+  width: 320px;
+  height: 380px;
+}
