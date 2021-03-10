@@ -10,6 +10,15 @@
   clear: both;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
 .float-left {
   float: left;
 }
@@ -24,29 +33,65 @@
 }
 
 #fixed-bar{
-  background-color: darksalmon;
+  background-color: rgb(218, 236, 255);
   position: fixed;
   z-index: 999;
   min-width: 1200px;
+  
 }
 
 .container{
   width: 80%;
   margin: auto;
-  background-color: forestgreen;
   padding-top: 30px;
   min-width: 1200px;
 }
 
 .box{
   width: 50%;
-  background-color: khaki;
+}
+
+.sbarretta{
+  border-left: solid 1px black;
+  padding-left: 20px;
+  margin-left: 20px;
+}
+
+.log-list{
+  display: inline-block;
+  list-style: none;
+}
+
+#lingue{
+  display: inline-block;
+}
+
+.top-link{
+  color: black;
+}
+
+#search{
+  color: rgb(134, 194, 247);
+  padding-top: 15px;
 }
 
 #logotipo{
-  background-color: deeppink;
   padding-top: 80px;  
   box-sizing: content-box;
+}
+
+#logo-pic{
+  padding-bottom: 20px;
+}
+
+.nav-item{
+  display: inline-block;
+  padding-left: 20px;
+  color: black;
+}
+
+.nav-link{
+  color: black;
 }
 
 #jumbotrone{
@@ -58,15 +103,82 @@
 }
 
 .jumbo-frame{
-  background-color: maroon;
   width: 40%;
-  height: 500px;
+  height: 600px;
+  padding-top: 80px;
+}
+
+#jumbo-header{
+  padding-top: 20px;
 }
 
 #jumbo-bar{
-  background-color: palegreen;
+  background-color: rgb(195, 247, 244);
   position: absolute;
   bottom: 0px;
+  border-bottom: solid 2px black;
+  border-top: solid 2px black;
+  height: 82px;
+}
+
+.jumbo-text{
+  list-style: none;
+}
+
+.h-jumbo{
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.jumbo-item{
+  margin-bottom: 30px;
+  line-height: 20px;
+}
+
+.jumbo-p{
+  font-size: 14px;
+  width: 400px;
+}
+
+.jumbo-p-header{
+  width: 500px;
+  line-height: 30px;
+}
+
+#jumbo-payoff{
+  font-size: 11px;
+}
+
+.btn{
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+  background-color: rgb(251, 95, 72);
+  border-radius: 6px;
+  color: white;
+}
+
+.log-item{
+  display: inline-block;
+  margin-left: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#log-btn{
+  margin-right: 30px;
+  margin-left: 30px;
+  background-color: white;
+  border: solid 1px orangered;
+}
+
+#link-log{
+  color: orangered;
+}
+
+#jumbo-btn{
+  width: 180px;
 }
 
 #powerful{
@@ -75,17 +187,54 @@
   background-color: peru;
 }
 
+.img-main{
+  width: 150px;
+}
+
 .incipit{
   height: 250px;
 }
 
 #incipit-main{
   background-color: plum;
+  text-align: center;
+  color: rgb(39, 54, 73);
+  width: 60%;
+  margin: auto;
+}
+
+.p-main{
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 30px;
 }
 
 #incipit-row{
   background-color: yellow;
 }
+
+.main-icon{
+  width: 150px;
+}
+
+.box-main{
+  width: 400px;
+  height: 250px;
+  background-color: teal;
+  padding-top: 50px;
+}
+
+#incipit-row-btn{
+  margin-left: 100px;
+  width: 180px;
+  margin-top: 20px;
+}
+
+#row-list{
+  text-align: left;
+}
+
 
 #col-frame{
   background-color: chartreuse;
@@ -104,43 +253,95 @@
 }
 
 #learn{
-  background-color: deeppink;
   height: 600px;
-}
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(86,86,185,1) 0%, rgba(0,212,255,1) 100%);}
 
 #pay-off{
-  background-color: darkorchid;
   height: 150px;
   margin-bottom: 50px;
+  text-align: center;
+  color: white;
+}
+
+.pay-item{
+  padding-top: 20px;
+}
+
+.h-off{
+  width: 900px;
+  margin: auto;
+}
+
+.p-off{
+  margin-top: 30px;
+  line-height: 20px;
+  font-size: 13px;
+}
+
+.learn-list{
+  list-style: none;
+  text-align: center;
+}
+
+.learn-item{
+  width: 300px;
+  height: 50px;
+  padding-top: 30px;
+  margin-bottom: 15px;
+  margin: auto;
+  color: white;
+}
+
+.h-learn{
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.plus{
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.p-learn{
+  font-size: 10px;
+  font-weight: 600;
 }
 
 .riga{
-  background-color: dodgerblue;
-  height: 150px;
+  height: 170px;
 }
 
 #prima-riga{
-  border-bottom: solid 3px black;
+  border-bottom: solid 1px rgb(255, 255, 255);
 }
 
 .lil-box{
   width: calc(100%/4);
-  background-color: gold;
-  height: 149px;
+  height: 169px;
 }
 
 .central-box{
-  border-left: solid 1px black;
-  border-right: solid 1px black;
+  border-left: solid 1px rgb(255, 255, 255);
+  border-right: solid 1px rgb(255, 255, 255);
 }
 
 #clients{
-  background-color: greenyellow;
   height: 600px;
 }
 
+.h-client{
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.p-client{
+  font-size: 12px;
+  text-align: left;
+  line-height: 20px;
+}
+
 .text-clients{
-  background-color: indianred;
   height: 100px;
   width: 250px;
   margin-bottom: 100px;
@@ -158,9 +359,8 @@
 }
 
 .container-loghi{
-  background-color: lemonchiffon;
   height: 100px;
-  width: 600px;
+  width: 625px;
   margin-top: 60px;
 }
 
@@ -193,7 +393,115 @@
   height: 280px;
 }
 
-.cina{
-  width: 320px;
-  height: 380px;
+/* footer */
+
+footer{
+  background-color: rgb(57, 57, 57);
+  height: 500px;
+  color: white;
+}
+
+
+
+#container-row-footer{
+  height:300px;
+}
+
+.lista-footer{
+  list-style: none;
+}
+
+.list-title{
+  font-size: 11;
+  margin-bottom: 20px;
+  font-weight: 800;
+  color: white;
+}
+
+.skill{
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: white;
+}
+
+.colonna-footer{
+  width: calc(100%/4);
+}
+
+.btn-footer{
+  border-radius: 6px;
+  background-color: snow;
+  color: rgb(38, 56, 72);
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  margin: auto;
+  font-weight: 400;
+  font-size: 10;
+}
+
+#call-in-footer{
+  margin-top: 25px;
+}
+
+.container-icons{
+  height: 20px;
+  width: 225px;
+  margin-top: 30px;
+}
+
+.col-icon{
+  width: calc(100%/5);
+  height: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+.social-icon{
+  color: rgb(155, 155, 155);
+  font-size: 22px;
+}
+
+#footer-language{
+  height: 30px;
+  margin: auto;
+}
+
+.row-lingue{
+  text-align: center;
+}
+
+.lingua{
+  margin-right: 20px;
+}
+
+#colophone{
+  border-top: solid 1px rgb(186, 186, 186);
+}
+
+.logo-footer{
+  margin-top: 20px;
+  width: 100px;
+}
+
+.copy{
+  display: block;
+}
+
+.frame-policy{
+  margin-top: 20px;
+}
+
+.policy{
+  display: inline-block;
+  margin-left: 30px;
+}
+
+
+.policink{
+  color: whitesmoke;
+}
+
+#footer-section{
+  color:   color: rgb(155, 155, 155);
+  ;
 }
