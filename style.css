@@ -33,7 +33,7 @@ a{
 }
 
 #fixed-bar{
-  background-color: rgb(218, 236, 255);
+  background-color: rgb(232, 248, 255);
   position: fixed;
   z-index: 999;
   min-width: 1200px;
@@ -47,8 +47,15 @@ a{
   min-width: 1200px;
 }
 
+#container-fixed{
+  padding-top: 0px;
+}
+
+
 .box{
   width: 50%;
+  height: 80px;
+  vertical-align: middle;
 }
 
 .sbarretta{
@@ -60,10 +67,16 @@ a{
 .log-list{
   display: inline-block;
   list-style: none;
+  height: 100%;
 }
 
 #lingue{
   display: inline-block;
+  padding-top: 30px;
+}
+
+#dx{
+  padding-top: 15px;
 }
 
 .top-link{
@@ -151,8 +164,8 @@ a{
 }
 
 .btn{
-  padding-top: 15px;
-  padding-bottom: 15px;
+  width: 170px;
+  line-height: 50px;
   text-align: center;
   background-color: rgb(251, 95, 72);
   border-radius: 6px;
@@ -167,10 +180,13 @@ a{
 }
 
 #log-btn{
+  color: orangered;
   margin-right: 30px;
   margin-left: 30px;
+  width: 100px;
   background-color: white;
   border: solid 1px orangered;
+  line-height: 50px ;
 }
 
 #link-log{
@@ -183,8 +199,8 @@ a{
 
 #powerful{
   width: 100%;
-  height: 1200px;
-  background-color: peru;
+  height: 1250px;
+  background-color: rgb(201, 235, 249);
 }
 
 .img-main{
@@ -196,7 +212,6 @@ a{
 }
 
 #incipit-main{
-  background-color: plum;
   text-align: center;
   color: rgb(39, 54, 73);
   width: 60%;
@@ -204,14 +219,17 @@ a{
 }
 
 .p-main{
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
   font-size: 14px;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 #incipit-row{
-  background-color: yellow;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 50px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 15px #888888;
 }
 
 .main-icon{
@@ -221,8 +239,7 @@ a{
 .box-main{
   width: 400px;
   height: 250px;
-  background-color: teal;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 #incipit-row-btn{
@@ -233,19 +250,94 @@ a{
 
 #row-list{
   text-align: left;
+  width: 600px;
 }
 
+/* #line{
+  width: 220px;
+  height: 2px;
+  background-color: black;  
+  text-align: center;
+} */
 
-#col-frame{
-  background-color: chartreuse;
-  height: 600px;
+.row-item{
+  margin-bottom: 15px;
+}
+
+.hr-row{
+  width: 590px;
+  margin-top: 10px;
+}
+
+.p-row-item{
+  line-height: 27px;
+}
+
+.inline-row-item{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.check-row{
+  color: orangered;
+}
+
+.h-row{
+  font-size: 30px;
+  font-weight: 600;
 }
 
 .colonna{
   width: 32%;
-  background-color: red;
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
   height: 600px;
+  box-shadow: 2px 2px 15px #888888;
+  text-align: center;
+  margin: auto;
 }
+
+.quadro-up{
+  width: 100%;
+  height: 50%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.down{
+  border-top: solid 1px black;
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+#table{
+  width: 108px;
+}
+
+#office{
+  width: 150px;
+}
+
+.check-item{
+  list-style: none;
+  margin-top: 15px;
+}
+
+.frame-check-list{
+  margin-top: 40px;
+}
+
+.frame-check-list{
+  text-align: left;
+  margin-left: 38px;
+}
+
+.btn-col{
+  margin-left: 0px;
+  margin-top: 25px;
+}
+
 
 #col-centrale{
   margin-left: 2%;
@@ -254,7 +346,8 @@ a{
 
 #learn{
   height: 600px;
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(86,86,185,1) 0%, rgba(0,212,255,1) 100%);}
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(86,86,185,1) 0%, rgba(0,212,255,1) 100%);
+}
 
 #pay-off{
   height: 150px;
@@ -401,8 +494,6 @@ footer{
   color: white;
 }
 
-
-
 #container-row-footer{
   height:300px;
 }
@@ -456,6 +547,13 @@ footer{
   text-align: center;
 }
 
+.img-col-icon{
+  width: 120px;
+  padding-top: 50px;
+}
+
+
+
 .social-icon{
   color: rgb(155, 155, 155);
   font-size: 22px;
@@ -496,12 +594,10 @@ footer{
   margin-left: 30px;
 }
 
-
 .policink{
   color: whitesmoke;
 }
 
 #footer-section{
   color:   color: rgb(155, 155, 155);
-  ;
 }

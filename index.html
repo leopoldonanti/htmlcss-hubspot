@@ -18,7 +18,7 @@
     <!-- Prima sezione: comprende menu lingua a sx e log-in a dx. La barra è in posizione "fixed" con z-index in primo piano -->
     <section id="fixed-bar" class="bar"> 
 
-      <div class="container">
+      <div id="container-fixed" class="container">
 
         <div id="lingue" class="box float-left">
 
@@ -30,9 +30,21 @@
 
         </div>
 
-        <div class="box float-right">
+        <div id="dx" class="box float-right">
 
-          <ul class="log-list float-right">
+          <a class="float-right btn" href="#">
+            <div>HubSpot Free</div>
+          </a>
+
+          <a id="log-btn" class="float-right btn" href="#">
+            <div>Log in</div>
+          </a>
+
+          <a class="float-right" href="#">
+            <div><i id="search" class="fas fa-search"></i></div>
+          </a>
+
+         <!--  <ul class="log-list float-right">
             
             <li class="log-item btn float-right">
               <a href="#">HubSpot Free</a>
@@ -45,9 +57,9 @@
             </li>
 
             <li class="log-item float-right">
-              <a href="#"></a><i id="search" class="fas fa-search"></i>
+              <a href="#"><i id="search" class="fas fa-search"></i></a>
             </li>
-          </ul>
+          </ul> -->
         
         </div>
 
@@ -159,15 +171,19 @@
           <div class="box-main float-left">
             
             <ul id="row-list" class="learn-list float-left">
-              <li><h3>Free HubSpot CRM</h3></li>
-              <li><p>Everything you need to organize, track, and build better relationship with leads and customers. Yes, it's 100% free. Forever. </p></li>
-              <li><h4>POPOLAR FEATURE</h4></li>
-              <li></li>
-              <li><i class="fas fa-check-circle"></i> Contact Insight</li>
-              <li><i class="fas fa-check-circle"></i> Deals</li>
-              <li><i class="fas fa-check-circle"></i> Task</li>
+              <li class="row-item"><h3 class="h-row">Free HubSpot CRM</h3></li>
+              <li class="row-item"><p class="p-row-item">Everything you need to organize, track, and build better relationship with leads and customers. Yes, it's 100% free. Forever. </p></li>
+              <li class="row-item "><h5>POPOLAR FEATURE</h5> <hr class="hr-row"></li>
+              <li class="row-item">
+                <div id="LINEA"></div>
+              </li>
+              <li class="row-item inline-row-item"><i class=" check-row fas fa-check-circle"></i> Contact Insight</li>
+              <li class="row-item inline-row-item"><i class="check-row fas fa-check-circle"></i> Deals</li>
+              <li class="row-item inline-row-item"><i class=" check-row fas fa-check-circle"></i> Task</li>
+
             </ul>
 
+            
 
           </div>
 
@@ -176,14 +192,88 @@
         <div id="col-frame" class="incipit">
 
           <div class="colonna float-left">
+            
+            <div class="quadro-up">
+              <img class="img-col-icon" src="img/buble.svg" alt="">
+              <p
+              class="p-main">Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.</p>
+            </div>
+
+            <div class="quadro-up down">
+              <h4>POPOLAR FEATURE</h4>
+
+              <div class="frame-check-list">
+                <ul class="check-list">
+                  <li class="check-item"><i class=" check-row fas fa-check-circle"></i> Lead Generation</li>
+                  <li class="check-item"><i class=" check-row fas fa-check-circle"></i> Marketing Automation</li>
+                  <li class="check-item"><i class=" check-row fas fa-check-circle"></i> Analytics</li>
+                  <li class="check-item btn-col"><a href="#">
+                    <div class="btn">
+                      Learn More
+                    </div>
+                  </a></li>
+                </ul>
+
+              </div>
+            </div>
 
           </div>
 
           <div id="col-centrale" class="colonna float-left">
 
+            <div class="quadro-up">
+              <img id="office" class="img-col-icon" src="img/office.svg" alt="">
+              <p
+              class="p-main">Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.</p>
+            </div>
+
+            <div class="quadro-up down">
+              <h4>POPOLAR FEATURE</h4>
+
+              <div class="frame-check-list">
+                <ul>
+                  <li class="check-item"><i class=" check-row fas fa-check-circle"></i> Email Tracking</li>
+                  <li class="check-item"><i class=" check-row fas fa-check-circle"></i> Meeting Scheduling</li>
+                  <li class="check-item"><i class=" check-row fas fa-check-circle"></i> Email Automation</li>
+                  <li class="check-item btn-col"><a href="#">
+                    <div class="btn">
+                      Learn More
+                    </div>
+                  </a></li>
+                </ul>
+
+              </div>
+
+            </div>
+
           </div>
 
           <div class="colonna float-left">
+
+            <div class="quadro-up">
+              <img id="table" class="img-col-icon" src="img/table.svg" alt="">
+              <p
+              class="p-main">Marketing software to help you grow traffic, convert more visitors, and run complete inbound marketing campaigns at scale.</p>
+            </div>
+
+            <div class="quadro-up down">
+              <h4>POPOLAR FEATURE</h4>
+
+              <div class="frame-check-list">
+                <ul>
+                  <li class="check-item"><i class=" check-row fas fa-check-circle"></i> Tickets</li>
+                  <li class="check-item"><i class=" check-row fas fa-check-circle"></i> Customer Feedback</li>
+                  <li class="check-item"><i class=" check-row fas fa-check-circle"></i> Knownledge Base</li>
+                  <li class="check-item btn-col"><a href="#">
+                    <div class="btn">
+                      Learn More
+                    </div>
+                  </a></li>
+                </ul>
+
+              </div>
+            </div>
+
 
           </div>
 
